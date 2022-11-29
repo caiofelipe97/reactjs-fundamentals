@@ -7,7 +7,7 @@ export function Post() {
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <Avatar src="https://github.com/caiofelipe97.png"/>
+          <Avatar src="https://github.com/caiofelipe97.png" />
           <div className={styles.authorInfo}>
             <strong>Caio Felipe</strong>
             <span>Web Developer</span>
@@ -25,10 +25,6 @@ export function Post() {
         DoctorCare 🚀
         <p>
           <a href="">jane.design/doctorcare</a>
-        </p>
-        <p>
-          <a href="">#novoprojeto</a> <a href="">#nlw</a>{" "}
-          <a href="">#rocketseat</a>
         </p>
       </div>
       <form className={styles.commentForm}>
